@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Notice the quotes around the file name
+df = pd.read_csv("titanic (1).csv")
+
+# Print the first 5 rows
+print(df.head())
